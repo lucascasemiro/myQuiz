@@ -1,0 +1,108 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+background-color: #ffbb00;
+    height: 100%;
+    margin: 0;
+
+}
+
+.container{
+
+    height: 100%;
+    background-color: #ffbb00;
+}
+
+
+
+.topoTitulo{
+
+    height: 25%;
+    background-color: #ffbb00;
+
+}
+
+.meioPerguntas {
+    height: 15%;
+    background-color: #ffbb00;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 40px; 
+    box-sizing: border-box;
+}
+
+.perguntaContainer {
+    width: 400px; 
+    height: 150px;
+    background-color:#ffbb00; 
+    box-shadow: 0px 0px 50px #00000049;
+    
+}
+
+h2 {
+    text-align: center; 
+    margin-top: 2; 
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center; 
+    margin-top: 2; 
+}
+
+h4 {
+    text-align: center; 
+    margin-top: 2; 
+}
+
+.meioLabels{
+
+    height: 7%;
+    background-color: #ffbb00;
+
+}
+
+p{
+    text-align: center; 
+    margin-top: 2; 
+    font-size: 50px;   
+}
+.meioSelects {
+    height: 15%;
+    background-color: #ffbb00;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.select1,
+.select2,
+.select3 {
+    flex: 1; 
+}
+
+.select1 select,
+.select2 select,
+.select3 select {
+    width: 100%; 
+    padding: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+.baixoResultado{
+
+    height: 18%;
+    background-color: #ffbb00;
+
+}
